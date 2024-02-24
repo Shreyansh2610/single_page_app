@@ -5,3 +5,6 @@ $('.imageChange').on('change',function(event) {
     $('.changeable-background-image').attr('src',$(this).val());
     }, 50);
 });
+setInterval(() => {
+    $('#carousel1').trigger('click');
+}, 4500);
