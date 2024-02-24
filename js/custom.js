@@ -7,4 +7,6 @@ $('.imageChange').on('change',function(event) {
 });
 setInterval(() => {
     $('#carousel1').trigger('click');
+    $('#carousel2click').trigger('click');
+
 }, 4500);

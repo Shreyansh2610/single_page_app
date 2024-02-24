@@ -10,7 +10,7 @@
     margin: 2rem;
 }
 .clickable-background {
-    background-image: url('images/food/foodbg.png');
+    background-image: url('/images/food/foodbg.png');
 }
 .list-group-item {
     opacity: 0.9;
@@ -21,4 +21,8 @@
     height: 500px;
     border: 5px solid white;
     border-radius: 5px;
+}
+
+.text-title {
+ color: #1D3557;
 }
