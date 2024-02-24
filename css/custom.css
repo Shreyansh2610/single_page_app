@@ -1,0 +1,9 @@
+.marquee {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+
+.card-moving-background {
+    background-image: url('images/cards/cards.png');
+    background-repeat: no-repeat;
+}
