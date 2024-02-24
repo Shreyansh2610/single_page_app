@@ -26,3 +26,7 @@
 .text-title {
  color: #1D3557;
 }
+
+.btn-group {
+    border-radius: 20px;
+}
