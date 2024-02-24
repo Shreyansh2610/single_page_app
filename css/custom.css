@@ -4,6 +4,22 @@
   }
 
 .card-moving-background {
-    background-image: url('images/cards/cards.png');
+    background-image: url('/images/cards/cards.png');
     background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    margin: 2rem;
+}
+.clickable-background {
+    background-image: url('/images/food/foodbg.png');
+}
+.list-group-item {
+    opacity: 0.9;
+    border: none;
+}
+.changeable-background-image {
+    width: 400px;
+    height: 500px;
+    border: 5px solid white;
+    border-radius: 5px;
 }
