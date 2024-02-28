@@ -30,3 +30,7 @@
 .btn-group {
     border-radius: 20px;
 }
+
+.cta-title {
+    font-size: 50px !important;
+}
