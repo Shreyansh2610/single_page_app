@@ -8,5 +8,14 @@ $('.imageChange').on('change',function(event) {
 setInterval(() => {
     $('#carousel1').trigger('click');
     $('#carousel2click').trigger('click');
-
+    setTimeout(() => {
+        $('.sliderCarouselBtn').removeClass('btn-style-one');
+        $('.sliderCarouselBtn[data-bs-slide-to="'+$('.sliderCarousel').filter('.active').data('bs-slide-to')+'"]').addClass('btn-style-one');
+    }, 700);
 }, 4500);
+
+$('.sliderCarouselBtn').on('click',function() {
+        $('.sliderCarouselBtn').removeClass('btn-style-one');
+        $(this).addClass('btn-style-one');
+
+});
