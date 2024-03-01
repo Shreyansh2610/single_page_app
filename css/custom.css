@@ -107,3 +107,6 @@
 .card-moving-background:hover {
     transform: translateZ(1.005rem);
 }
+body {
+    overflow-x: hidden;
+}
