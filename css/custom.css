@@ -57,3 +57,53 @@
 .card-show:hover {
     transform: scale(1.01);
 }
+
+.card-slider {
+    min-height: 65vh;
+    display: grid;
+    place-items: center;
+    height: 350px;
+}
+.card-container {
+    height: 400px;
+    margin: auto;
+    position: relative;
+    width: 90%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+.slide-container {
+    display: flex;
+    width: calc(250px*18);
+    animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px*9));
+    }
+}
+
+.card-area {
+    height: 350px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+    border-radius: 100px;
+
+}
+.card-moving-background {
+    width: 100%;
+    transition: transform 2s;
+    border-radius: 1.5rem;
+}
+
+.card-moving-background:hover {
+    transform: translateZ(1.005rem);
+}
